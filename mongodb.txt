@@ -1,0 +1,5 @@
+共有フォルダが見れないため、mongodbが起動できない対応
+
+cd ~
+mkdir -p hogehogehoge/.meteor/local
+sudo mount --bind /home/vagrant/hogehogehoge/.meteor/local/ /vagrant/hogehogehoge/.meteor/local/
